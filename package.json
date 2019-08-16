@@ -1,0 +1,48 @@
+{
+  "name": "vue-floating",
+  "version": "0.2.1",
+  "author": "xiaotianyi <13006378969@163.com>",
+  "license": "MIT",
+  "description": "基于Vue的浮窗组件,可在屏幕内自由拖拽",
+  "private": false,
+  "main": "lib/vue-floating.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vue-floating --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-floating": "^0.2.0",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daughterRui/floating.git"
+  },
+  "keywords": [
+    "vue",
+    "floating",
+    "drag",
+    "animation"
+  ],
+  "bugs": {
+    "url": "https://github.com/daughterRui/floating/issues"
+  },
+  "homepage": "https://github.com/daughterRui/floating#readme"
+}
