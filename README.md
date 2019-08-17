@@ -9,7 +9,7 @@ npm i vue-floating -S
 ```
 ### Example
 
-[demo]https://daughterrui.github.io/xiaotianyi.github.io/#/vue-floating
+[demo](https://daughterrui.github.io/xiaotianyi.github.io/#/vue-floating)
 
 ### Use in SPA
 
