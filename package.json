@@ -1,6 +1,6 @@
 {
   "name": "vue-floating",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "xiaotianyi <13006378969@163.com>",
   "license": "MIT",
   "description": "基于Vue的浮窗组件,可在屏幕内自由拖拽",
