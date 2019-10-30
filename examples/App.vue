@@ -18,7 +18,7 @@ export default {
   },
   methods: {
     floatingTap() {
-
+      console.log('aaaa');
     },
   },
 };

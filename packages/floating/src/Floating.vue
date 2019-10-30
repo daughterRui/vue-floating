@@ -14,7 +14,7 @@
   class="floating"
   v-pressMove="{methods: pressMove}"
   ref="floating"
-  @click="tap"
+  v-tap="{methods: tap }"
   @touchend="touchend"
   >
   <slot></slot>
@@ -104,7 +104,7 @@ export default {
       self.top += e.deltaY;
     },
     tap() {
-
+      this.$emit('tap');
     },
     touchend() {
       const self = this;

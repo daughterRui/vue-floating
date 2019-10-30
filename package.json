@@ -1,6 +1,6 @@
 {
   "name": "vue-floating",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "author": "xiaotianyi <13006378969@163.com>",
   "license": "MIT",
   "description": "基于Vue的浮窗组件,可在屏幕内自由拖拽",
@@ -15,7 +15,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
-    "vue-floating": "^0.2.1",
+    "vue-floating": "^0.2.4",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
